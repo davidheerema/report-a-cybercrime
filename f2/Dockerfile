@@ -14,7 +14,7 @@ RUN npm ci
 RUN npm run build
 
 FROM node:12.15-alpine
-LABEL maintainer="stephen.astels@cds-snc.ca"
+LABEL maintainer="stephen.test@cds-snc.ca"
 RUN apk add --no-cache openssl
 USER node
 
